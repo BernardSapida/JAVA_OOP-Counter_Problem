@@ -28,6 +28,8 @@ public class App {
 
             app.setTotalBill(app.selectedItem, app.selectedDiscount);
             System.out.print("Your total bill is: " + app.getTotalBill());
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
